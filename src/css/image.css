@@ -1,3 +1,52 @@
 /* Yurii Shyian start styles image section */
+.image {
+  background-color: var(--primary-color);
+  background-image: url('../img/image-section/image-bg-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+  text-transform: capitalize;
+  margin-top: 80px;
+}
 
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .image {
+    background-image: url('../img/image-section/image-bg-mobile@2.jpg');
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    background-image: url('../img/image-section/image-bg-tablet.jpg');
+    height: 776px;
+    margin-top: 100px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .image {
+      background-image: url('../img/image-section/image-bg-tablet@2.jpg');
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .image {
+    background-image: url('../img/image-section/image-bg-desktop.jpg');
+    margin-top: 150px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .image {
+      background-image: url('../img/image-section/image-bg-desktop@2.jpg');
+    }
+  }
+}
 /* Yurii Shyian end styles image section */
