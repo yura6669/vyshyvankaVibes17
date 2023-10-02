@@ -3,12 +3,14 @@
   color: var(--secondary-color);
   font-size: 44px;
   font-weight: 400;
-  line-height: 1.2; /* 122.727% */
+  line-height: 1.2;
+  /* 122.727% */
   letter-spacing: 0.003em;
   display: block;
   margin: 60px auto 20px auto;
   max-width: 335px;
 }
+
 .ukrainian-hero {
   color: var(--accent-color);
   font-size: 44px;
@@ -16,4 +18,93 @@
   line-height: 1.2;
   letter-spacing: 0.003em;
 }
+
+/* .hero {
+  background: #1C2225;
+  position: relative;
+}
+
+.icon-text-wrapper {
+  position: absolute;
+  top: 80px;
+  right: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.link-order-hero {
+  margin-bottom: 40px;
+  color: var(--white, #FCF9F9);
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  text-transform: uppercase;
+  background: #1C2225;
+  padding: 14px 39px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.10);
+  margin-left: 173px;
+  display: block;
+  max-width: 168px;
+}
+
+.hero-container-girl {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hero-cloth-ukraine {
+  width: 157px;
+  height: 96px;
+  border-radius: 50% / 100% 100% 0 0;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.photo-hero {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.text-under-icon {
+  color: rgba(252, 249, 249, 0.40);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  width: 115px;
+}
+
+.title-hero {
+  color: var(--white, #FCF9F9);
+  font-family: Manrope;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  
+  letter-spacing: -1.62px;
+  padding-top: 106px;
+  padding-bottom: 40px;
+  width: 549px;
+}
+
+.ukrainian-hero {
+  color: var(--white, #ECD979);
+  font-family: Manrope;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -1.62px;
+} */
 /* Bohdan Tkach end styles hero section */
