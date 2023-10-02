@@ -1,3 +1,19 @@
 /* Bohdan Tkach start styles hero section */
-
+.title-hero {
+  color: var(--secondary-color);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.2; /* 122.727% */
+  letter-spacing: 0.003em;
+  display: block;
+  margin: 60px auto 20px auto;
+  max-width: 335px;
+}
+.ukrainian-hero {
+  color: var(--accent-color);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.003em;
+}
 /* Bohdan Tkach end styles hero section */
