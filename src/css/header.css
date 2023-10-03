@@ -1,3 +1,173 @@
 /* Petro Kovtsun start style header section */
+.header-section {
+    background-color: var(--primary-color, #1C2225);
+}
+
+.header-general-div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    
+    
+
+
+}
+
+.address-keys, .container-navigation {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container-navigation {
+    display: flex;
+     align-items: center;
+     width: 100%;
+     max-width: 582px;
+   
+    
+}
+
+
+
+.navigation-link {
+    color: var(--white, #FCF9F9);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28;
+text-transform: uppercase;
+ 
+}
+
+.navigation-link-list {
+    display: none;
+
+}
+
+.header-addres-phone {
+    display: none;
+}
+
+.header-social-list {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.header-social-link {
+    border-radius: 15px;
+border: 1px solid rgba(252, 249, 249, 0.10);
+background: rgba(252, 249, 249, 0.10);
+    display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 42px;
+     height: 42px;
+    
+     transition: background-color, border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burger-menu-bth {
+    border: none;
+        line-height: 0;
+        padding-left: 12px;
+
+        background-color: transparent;
+        fill: #2F2F37;
+
+}
+
+.header-addres-div {
+    display: flex;
+    align-items: center;
+}
+
+.header-social-link:hover, .header-social-link:focus {
+    border: 1px solid #ECD979;
+    background-color: transparent;
+}
+
+
+
+@media screen and (min-width: 375px) {
+    .header-logo {
+        padding-right: 60px;
+     }
+
+     
+
+}
+
+@media screen and (min-width: 768px) {
+    .burger-menu-bth {
+        padding-left: 20px;
+    }
+
+}
+
+
+@media screen and (min-width: 1280px) {
+    .navigation-link-list {
+    display: flex;
+    gap: 25px;
+}
+
+
+
+
+
+    .header-addres-phone {
+        display: flex;
+        color: var(--white, #FCF9F9);
+
+        border-radius: 15px;
+      border: 1px solid rgba(252, 249, 249, 0.10);
+      
+      justify-content: center;
+      align-items: center;
+      width: 190px;
+      height: 42px;
+     
+      transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+    
+    
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    text-transform: uppercase;
+    }
+
+    .header-addres-phone:hover, .header-addres-phone:focus {
+        border: 1px solid #ECD979;
+    }
+
+
+    
+    
+    .address-keys {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .burger-menu-bth {
+        display: none;
+    }
+    .header-first-nav-link {
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    }
+
+    
+
+    .header-first-nav-link:hover, .header-first-nav-link:focus {
+        color: #ECD979;
+    }
+
+}
+
+
 
 /* Petro Kovtsun end style header section */
