@@ -1,11 +1,26 @@
 /* Andriy Gensyrovskyi start styles about us section */
 
+.about-us-container {
+    background: #1C2225;
+}
 
 .about-background-container {}
 
-.about-text {}
+.about-us-text {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+}
 
-.about-title {}
+.about-us-title {
+    color: var(--white, #FCF9F9);
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.38;
+    letter-spacing: -0.03em;
+}
 
 .about-pictute {}
 
