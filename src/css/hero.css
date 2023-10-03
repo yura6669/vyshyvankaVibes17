@@ -114,7 +114,19 @@
     font-size: 54px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
+  .photo-hero {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+  }
+  /* .title-hero {
+    display: block;
+    width: 518px;
+    height: 192px;
+    padding-top: 194px;
+    padding-left: 532px;
+  } */
 }
 /* .hero {
   background: #1c2225;
