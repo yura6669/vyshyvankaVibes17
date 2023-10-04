@@ -58,11 +58,6 @@
   .hero {
     position: relative;
   }
-  /* .hero-container-girl {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-  } */
   .hero-icon-text-wrapper {
     position: absolute;
     top: 80px;
