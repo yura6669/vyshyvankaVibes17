@@ -83,7 +83,7 @@
 }
 
 
-    .container {
+    .container-block {
         width: 768px;
         padding-left: 32px;
         padding-right: 32px;
@@ -118,7 +118,7 @@
     padding: 150px 0;
 }
 
-    .container {
+    .container-block {
         width: 1280px;
         padding-left: 100px;
         padding-right: 100px;
