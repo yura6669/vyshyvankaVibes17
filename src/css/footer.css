@@ -1,3 +1,117 @@
 /* Vyacheslav Panchenko start styles footer section */
+.footer {
+  background-color: var(--primary-color);
+  background-image: url(/img/footer/footer-mobile-back.png);
+  background-size: 375px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding: 40px 20px 0 20px;
+}
+.footer-navigation-container {
+  margin-bottom: 40px;
+}
 
+.footer-navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  column-gap: 40px;
+  align-items: flex-start;
+}
+
+.footer-navigation-link {
+  color: #fcf9f9;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-navigation-link:hover,
+.footer-navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.text-footer {
+  padding-bottom: 292px;
+}
+
+.footer-text {
+  color: #fcf9f9;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: -1.32px;
+}
+
+.ukrainian {
+  color: var(--accent-color);
+}
+
+@media screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx),
+  screen and (min-device-pixel-ratio: 2) {
+  .footer {
+    background-image: url(/img/footer/footer-mobile-back@2.png);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    background-image: url(/img/footer/footer-tablet-back.png);
+    background-size: 174px 100%;
+    background-position: right center;
+    padding-left: 32px;
+  }
+
+  .footer-navigation-list {
+    row-gap: 0;
+    column-gap: 25px;
+  }
+
+  .footer-navigation-container {
+    margin-bottom: 80px;
+  }
+
+  .text-footer {
+    padding-bottom: 40px;
+  }
+
+  .text-footer {
+    width: 514px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .footer {
+      background-image: url(/img/footer/footer-tablet-back@2.png);
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding-left: 100px;
+    background-image: url(/img/footer/footer-desktop-back.png);
+    background-size: 336px 100%;
+  }
+
+  .text-footer {
+    width: 522px;
+  }
+
+  .footer-navigation-container {
+    margin-bottom: 117px;
+  }
+
+  @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+    .footer {
+      background-image: url(/img/footer/footer-desktop-back@2.png);
+    }
+  }
+}
 /* Vyacheslav Panchenko end styles footer section */
