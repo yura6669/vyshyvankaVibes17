@@ -1,22 +1,37 @@
 /*  Olha Yurieva start styles testimonials section */
 
-
 .testimonials-segment {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: var(--primary-color);
 }
+
+@media screen and (min-width: 768px) {
+.testimonials-segment {
+    padding-top: 100px;
+    padding-bottom: 100px;  
+}
+}
+
 
 .testimonials-segment-title {
     color: var(--white, #FCF9F9);
     font-family: Manrope;
-    font-size: 44px;
+    font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 64px; /* 145.455% */
-    letter-spacing: -1.32px;
-    margin-bottom: 72px;
+    line-height: 1.37; /* 137.5% */
+    letter-spacing: -0.03em;
+    margin-bottom: 64px;
 }
+
+@media screen and (min-width: 768px){
+.testimonials-segment-title {
+    font-size: 44px;
+    line-height: 1.45; /* 145.455% */
+}
+}
+
 
 .testimonials-menu {
     display: flex;
@@ -58,26 +73,7 @@
     }
 }
 
-
-@media screen and (min-width: 768px) {
-    .testimonials-menu-item {
-        width: calc((100% - 32px) / 2);
-        position: relative;
-        border-radius: 4px;
-        border: 1px solid rgba(252, 249, 249, 0.10);
-        padding-top: 80px;
-        padding-right: 18px;
-        padding-left: 18px;
-        padding-bottom: 18px;
-        
-    }
-    }
-
-
-
-@media screen and (min-width: 1280px) {
 .testimonials-menu-item {
-    width: calc((100% - 52px) / 3);
     position: relative;
     border-radius: 4px;
     border: 1px solid rgba(252, 249, 249, 0.10);
@@ -86,6 +82,17 @@
     padding-left: 18px;
     padding-bottom: 18px;
     
+}
+
+@media screen and (min-width: 768px) {
+    .testimonials-menu-item {
+        width: calc((100% - 32px) / 2); 
+    }
+    }
+
+@media screen and (min-width: 1280px) {
+.testimonials-menu-item {
+    width: calc((100% - 52px) / 3);
 }
 }
 
@@ -102,12 +109,9 @@
 }
 
 .testimonial-img {
-    max-width: 100%;
+   max-width: 100%;
 }
 
-.testimonials-title-text-wrapper {
-    
-}
 
 .testimonials-category-title {
     color: var(--white, #FCF9F9);
@@ -119,14 +123,25 @@
     line-height: 30px; /* 150% */
     margin-bottom: 8px;
 }
+
+
+
 .testimonials-text {
     color: rgba(252, 249, 249, 0.40);
     text-align: center;
     font-family: Manrope;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
+
+@media screen and (min-width: 768px) {
+    .testimonials-text {
+        font-size: 16px;
+    }
+}
+
+
 
 /*  Olha Yurieva end styles testimonials section */
