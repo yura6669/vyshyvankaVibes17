@@ -79,7 +79,12 @@
   }
 
   .text-footer {
-    width: 514px;
+    width: 521px;
+  }
+
+  .footer-text {
+    font-size: 54px;
+    line-height: 64px;
   }
 
   @media screen and (min-resolution: 192dpi),
@@ -99,7 +104,12 @@
   }
 
   .text-footer {
-    width: 522px;
+    width: 765px;
+  }
+
+  .footer-text {
+    font-size: 64px;
+    line-height: 74px;
   }
 
   .footer-navigation-container {
