@@ -1,276 +1,267 @@
 /* Valery start styles order section */
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .order-pictright {
-    display: none;
+  display: none;
 }
 
 .order-background-container {
-    height: 550px;
-    background-image: url(/img/order/order-background-mobile.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+  height: 550px;
+  background-image: url(/img/order/order-background-mobile.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .order-container {
-    background-color: var(--primary-color, #1C2225);
-    padding-top: 80px;
-    padding-bottom: 80px;
+  background-color: var(--primary-color, #1c2225);
+  padding-top: 80px;
 }
 
 .order-title {
-    color: var(--white, #FCF9F9);
-    font-size: 32px;
-    font-weight: 500;
-    line-height: 1.35;
-    letter-spacing: -0.03em;
+  color: var(--white, #fcf9f9);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: -0.03em;
 }
 
 .order-title-changed {
-    color: var(--accent-color, #ECD979);
+  color: var(--accent-color, #ecd979);
 }
 
 .order-form {
-    padding-top: 40px;
-
+  padding-top: 40px;
 }
 
 .order-form-item {
-    background-color: var(--primary-color, #1C2225);
-    outline: none;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    color: var(--secondary-color, #FCF9F9);
-    font-weight: 400;
-    letter-spacing: -0.02em;
-    width: 100%;
-    padding: 14px 16px;
-    margin-bottom: 20px;
-    transition: border 250ms ease-in-out;
+  background-color: var(--primary-color, #1c2225);
+  outline: none;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  color: var(--secondary-color, #fcf9f9);
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  width: 100%;
+  padding: 14px 16px;
+  margin-bottom: 20px;
+  transition: border 250ms ease-in-out;
 }
 
 ::placeholder {
-    color: rgba(252, 249, 249, 0.50);
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: -0.28px;
+  color: rgba(252, 249, 249, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.28px;
 }
 
 .order-textarea-commit {
-    background-color: var(--primary-color, #1C2225);
-    outline: none;
-    border-radius: 8px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    color: var(--white, #FCF9F9);
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: -0.32px;
-    padding: 14px 16px;
-    width: 100%;
-    height: 196px;
-    resize: none;
-    margin-bottom: 40px;
-    transition: border 250ms ease-in-out;
+  background-color: var(--primary-color, #1c2225);
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  color: var(--white, #fcf9f9);
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.32px;
+  padding: 14px 16px;
+  width: 100%;
+  height: 196px;
+  resize: none;
+  margin-bottom: 40px;
+  transition: border 250ms ease-in-out;
 }
 
 .order-btn {
-    outline: none;
-    cursor: pointer;
-    padding: 14px 36px;
-    min-width: 145px;
-    height: 49px;
-    border-radius: 15px;
-    display: block;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    background-color: var(--primary-color, #1C2225);
-    margin: 0 auto;
-    color: var(--white, #FCF9F9);
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: -0.56px;
-    text-transform: uppercase;
-    transition: border 250ms ease-in-out;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 36px;
+  min-width: 145px;
+  height: 49px;
+  border-radius: 15px;
+  display: block;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: var(--primary-color, #1c2225);
+  margin: 0 auto;
+  color: var(--white, #fcf9f9);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  transition: border 250ms ease-in-out;
 }
 
 .order-form-item:hover,
 .order-form-item:active {
-    border: 1px solid rgba(252, 249, 249, 0.60);
+  border: 1px solid rgba(252, 249, 249, 0.6);
 }
 
 .order-textarea-commit:hover,
 .order-textarea-commit:active {
-    border: 1px solid rgba(252, 249, 249, 0.60);
+  border: 1px solid rgba(252, 249, 249, 0.6);
 }
 
 .order-btn:hover,
 .order-btn:active {
-    border: 1px solid var(--yellow, #ECD979);
+  border: 1px solid var(--yellow, #ecd979);
 }
 
-
-
-
 @media screen and (min-width: 375px) {
-    .container {
-        width: 375px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .container {
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    .order-title {
-        width: 335px;
-    }
+  .order-title {
+    width: 335px;
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
+  .container {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 
-    .order-pictright {
-        display: block;
-    }
+  .order-pictright {
+    display: block;
+  }
 
-    .order-background-container {
-        height: 776px;
-        background-image: url(/img/order/order-background-tablet.jpg);
-    }
+  .order-background-container {
+    height: 776px;
+    background-image: url(/img/order/order-background-tablet.jpg);
+  }
 
-    .order-container {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        background-image: url(/img/order/order-elements.png);
-        background-size: 323px 484px;
-        background-repeat: no-repeat;
-        background-position: bottom left;
+  .order-container {
+    padding-top: 100px;
+    background-image: url(/img/order/order-elements.png);
+    background-size: 323px 484px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
 
-    }
+  .order-title {
+    width: 542px;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.32;
+    letter-spacing: -0.03em;
+  }
 
-    .order-title {
-        width: 542px;
-        font-size: 44px;
-        font-weight: 500;
-        line-height: 1.32;
-        letter-spacing: -0.03em;
-    }
+  ::placeholder {
+    color: rgba(252, 249, 249, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+  }
 
-    ::placeholder {
-        color: rgba(252, 249, 249, 0.50);
-        font-size: 16px;
-        font-weight: 400;
-        letter-spacing: -0.02em;
-    }
+  .order-form-item {
+    width: 508px;
+    height: 50px;
+  }
 
-    .order-form-item {
-        width: 508px;
-        height: 50px;
-    }
+  .order-textarea-commit {
+    width: 508px;
+  }
 
-    .order-textarea-commit {
-        width: 508px;
-    }
+  .order-btn {
+    margin: 0;
+    margin-bottom: 100px;
+    min-width: 168px;
+    height: 50px;
+    padding: 14px 39px;
+  }
 
-    .order-btn {
-        margin: 0;
-        margin-bottom: 100px;
-        min-width: 168px;
-        height: 50px;
-        padding: 14px 39px;
-    }
+  .order-form-item:focus {
+    border: 1px solid rgba(252, 249, 249, 0.6);
+  }
 
-    .order-form-item:focus {
-        border: 1px solid rgba(252, 249, 249, 0.60);
-    }
+  .order-textarea-commit:focus {
+    border: 1px solid rgba(252, 249, 249, 0.6);
+  }
 
-    .order-textarea-commit:focus {
-        border: 1px solid rgba(252, 249, 249, 0.60);
-    }
+  .order-btn:focus {
+    border: 1px solid var(--yellow, #ecd979);
+  }
 
-    .order-btn:focus {
-        border: 1px solid var(--yellow, #ECD979);
-    }
-
-    .order-pictright {
-        margin-left: auto;
-    }
+  .order-pictright {
+    margin-left: auto;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .container {
-        width: 1280px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
+  .container {
+    width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 
-    .order-background-container {
-        height: 776px;
-        background-image: url(/img/order/order-background-desktop.jpg);
-    }
+  .order-background-container {
+    height: 776px;
+    background-image: url(/img/order/order-background-desktop.jpg);
+  }
 
-    .order-container {
-        padding-top: 150px;
-        padding-bottom: 150px;
-        display: flex;
-        flex-direction: row-reverse;
-        gap: 50px;
-    }
+  .order-container {
+    padding-top: 150px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+  }
 
-    .order-container-form-desktop {
-        display: flex;
-        flex-direction: column;
-    }
+  .order-container-form-desktop {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .order-btn {
-        margin: 0;
-    }
-
+  .order-btn {
+    margin: 0;
+  }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2dppx) and (min-width: 1280px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
-    .order-background-container {
-        background-image: url(/img/order/order-background-desktop@2x.jpg);
-    }
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+  .order-background-container {
+    background-image: url(/img/order/order-background-desktop@2x.jpg);
+  }
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 1279px),
-screen and (min-resolution: 2dppx) and (max-width: 1279px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 1279px) {
-    .order-background-container {
-        background-image: url(/img/order/order-background-tablet@2x.jpg);
-    }
+  screen and (min-resolution: 2dppx) and (max-width: 1279px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 1279px) {
+  .order-background-container {
+    background-image: url(/img/order/order-background-tablet@2x.jpg);
+  }
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
-    .order-background-container {
-        background-image: url(/img/order/order-background-mobile@2x.jpg);
-    }
+  screen and (min-resolution: 2dppx) and (max-width: 767px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 767px) {
+  .order-background-container {
+    background-image: url(/img/order/order-background-mobile@2x.jpg);
+  }
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-    .order-container {
-        background-image: url(/img/order/order-elements@2x.png);
-    }
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+  .order-container {
+    background-image: url(/img/order/order-elements@2x.png);
+  }
 }
 
 /* Valery end styles order section */
