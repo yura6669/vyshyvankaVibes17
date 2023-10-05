@@ -1,79 +1,83 @@
 <!-- Valery start order section -->
 <div class="order-background-container"></div>
-<section class="container order-container" id="section-order">
-  <div class="order-container-form-desktop">
-    <p class="order-title">
-      <span class="order-title-changed">Your order</span> is our priority:
-      Personalized approach and quality of service
-    </p>
-    <form class="order-form" name="order-form">
-      <label
-        class="visually-hidden"
-        for="order-user-name"
-        aria-label="input user name"
-      >
-      </label>
-      <input
-        class="order-form-item"
-        type="text"
-        id="order-user-name"
-        name="order-user-name"
-        placeholder="Enter your full name"
-        pattern="[a-z]{1,15}"
-        required
-      />
-      <label
-        class="visually-hidden"
-        for="order-user-email"
-        aria-label="input user email"
-      >
-      </label>
-      <input
-        class="order-form-item"
-        type="email"
-        id="order-user-email"
-        name="order-user-email"
-        placeholder="Enter your email"
-        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-        required
-      />
-      <label
-        class="visually-hidden"
-        for="order-comments"
-        aria-label="input your comments"
-      >
-      </label>
-      <textarea
-        class="order-textarea-commit"
-        name="order-comments"
-        id="order-comments"
-        placeholder="Comments"
-      ></textarea>
+<section class="order-container" id="section-order">
+  <div class="container">
+    <div class="order-container-flex">
+      <div class="order-container-form-desktop">
+        <h2 class="order-title">
+          <span class="order-title-changed">Your order</span> is our priority:
+          Personalized approach and quality of service
+        </h2>
+        <form class="order-form" name="order-form">
+          <label
+            class="visually-hidden"
+            for="order-user-name"
+            aria-label="input user name"
+          >
+          </label>
+          <input
+            class="order-form-item"
+            type="text"
+            id="order-user-name"
+            name="order-user-name"
+            placeholder="Enter your full name"
+            pattern="[a-z]{1,15}"
+            required
+          />
+          <label
+            class="visually-hidden"
+            for="order-user-email"
+            aria-label="input user email"
+          >
+          </label>
+          <input
+            class="order-form-item"
+            type="email"
+            id="order-user-email"
+            name="order-user-email"
+            placeholder="Enter your email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <label
+            class="visually-hidden"
+            for="order-comments"
+            aria-label="input your comments"
+          >
+          </label>
+          <textarea
+            class="order-textarea-commit"
+            name="order-comments"
+            id="order-comments"
+            placeholder="Comments"
+          ></textarea>
 
-      <button class="order-btn" type="submit">
-        Send
-        <svg width="26" height="10">
-          <use href="./img/order/svg/symbol-defs.svg#icon-untitled"></use>
-        </svg>
-      </button>
-    </form>
-  </div>
-  <div>
-    <img
-      class="order-pictright"
-      srcset="
-        ./img/order/order-content-img-desktop.jpg     524w,
-        ./img/order/order-content-img-desktop@2x.jpg 1048w,
-        ./img/order/order-content-img-tablet.jpg      638w,
-        ./img/order/order-content-img-tablet@2x.jpg  1276w
-      "
-      sizes="        
+          <button class="order-btn" type="submit">
+            Send
+            <svg width="26" height="10">
+              <use href="./img/order/svg/symbol-defs.svg#icon-untitled"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+      <div>
+        <img
+          class="order-pictright"
+          srcset="
+            ./img/order/order-content-img-desktop.jpg     524w,
+            ./img/order/order-content-img-desktop@2x.jpg 1048w,
+            ./img/order/order-content-img-tablet.jpg      638w,
+            ./img/order/order-content-img-tablet@2x.jpg  1276w
+          "
+          sizes="        
         (min-width: 1280px) 524px,
         (min-width: 768px) 638px
         "
-      src="./img/order/order-content-img-tablet.jpg"
-      alt="picture cloth"
-    />
+          src="./img/order/order-content-img-tablet.jpg"
+          alt="picture cloth"
+        />
+      </div>
+    </div>
   </div>
 </section>
 <!-- Valery end order section -->
